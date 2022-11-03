@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-skeleton-adapter" />
+        <module name="springboot-skeleton-domain" />
+        <module name="start" />
+        <module name="springboot-skeleton-app" />
+        <module name="springboot-skeleton-infrastructure" />
+        <module name="springboot-skeleton-client" />
+        <module name="springboot-skeleton-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
