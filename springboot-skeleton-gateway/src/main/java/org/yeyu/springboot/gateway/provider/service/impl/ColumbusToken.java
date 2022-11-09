@@ -1,9 +1,9 @@
 package org.yeyu.springboot.gateway.provider.service.impl;
 
-import com.lucas.gateway.enums.JwtSecret;
-import com.lucas.gateway.jwt.JwtUtils;
-import com.lucas.gateway.provider.service.IToken;
 import io.jsonwebtoken.Claims;
+import org.yeyu.springboot.gateway.enums.JwtSecret;
+import org.yeyu.springboot.gateway.jwt.JwtUtils;
+import org.yeyu.springboot.gateway.provider.service.IToken;
 
 import java.util.Map;
 

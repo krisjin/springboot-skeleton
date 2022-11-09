@@ -1,10 +1,10 @@
 package org.yeyu.springboot.gateway.provider.service;
 
 import com.google.common.collect.Lists;
-import com.lucas.gateway.provider.service.impl.StarToken;
 import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import org.yeyu.springboot.gateway.provider.service.impl.StarToken;
 
 import javax.annotation.Resource;
 import java.util.List;

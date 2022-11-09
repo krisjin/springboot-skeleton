@@ -1,9 +1,9 @@
 package org.yeyu.springboot.gateway.jwt;
 
-import com.lucas.gateway.common.Constants;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import lombok.extern.slf4j.Slf4j;
+import org.yeyu.springboot.gateway.common.Constants;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;

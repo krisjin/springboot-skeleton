@@ -2,8 +2,6 @@ package org.yeyu.springboot.gateway.provider.filter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lucas.gateway.jwt.JwtUtil;
-import com.lucas.gateway.provider.model.ReturnData;
 import io.jsonwebtoken.ExpiredJwtException;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,6 +16,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
+import org.yeyu.springboot.gateway.jwt.JwtUtil;
+import org.yeyu.springboot.gateway.provider.model.ReturnData;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

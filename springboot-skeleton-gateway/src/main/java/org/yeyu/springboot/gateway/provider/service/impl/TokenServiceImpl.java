@@ -1,7 +1,7 @@
 package org.yeyu.springboot.gateway.provider.service.impl;
 
-import com.lucas.gateway.provider.service.TokenService;
 import org.springframework.stereotype.Component;
+import org.yeyu.springboot.gateway.provider.service.TokenService;
 
 @Component
 public class TokenServiceImpl implements TokenService {

@@ -1,6 +1,5 @@
 package org.yeyu.springboot.gateway.provider.filter;
 
-import com.lucas.gateway.common.Constants;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

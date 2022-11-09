@@ -4,7 +4,6 @@ import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
 import com.alibaba.fastjson2.JSONWriter;
 import com.google.common.base.Charsets;
-import com.lucas.gateway.provider.model.ResponseData;
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Publisher;
 import org.springframework.core.Ordered;
@@ -19,6 +18,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import org.springframework.web.server.WebFilter;
 import org.springframework.web.server.WebFilterChain;
+import org.yeyu.springboot.gateway.provider.model.ResponseData;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
